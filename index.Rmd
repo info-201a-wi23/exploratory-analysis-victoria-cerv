@@ -3,13 +3,13 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
-
-Give your project a concise, interesting title that summarizes the entirety of your project
+## Project title: Health Systems Across the World
 
 ### Authors
-
-Names of your team members
+Megana Shivakumar
+Jorey Papritz
+Victoria Cervantes
+Sabriyah Morshed
 
 ### Date
 
@@ -17,12 +17,11 @@ Winter 2022
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+In this project, we question the relationship(s) between global healthcare systems and healthcare expenditure. Understanding this is important because it allows us to find the best way to finance healthcare and optimize its delivery across the world. To answer this question, we plan on analyzing data from the World Bank, taking into consideration the limitations and biases present in the dataset.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Healthcare / World Bank / Population Health / Healthcare Spending
 
 ### Introduction  
 
@@ -62,23 +61,22 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1
 
-Include a chart
+Histogram: physicians per capita 
 
 Describe why you chose this chart and what information it reveals
 
-Here's an example of how to run an R script inside an RMarkdown file:
-
 ``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+
 ```
 
 ### Chart 2
 
-Include a chart
+Scatter plot: for the relationship between healthcare spending and the number of available physicians and nurses
 
 Describe why you chose this chart and what information it reveals
 
 ### Chart 3
 
-Include a chart
+Barplot: health care expenditure based on top 10 countries that spend the highest
 
 Describe why you chose this chart and what information it reveals
