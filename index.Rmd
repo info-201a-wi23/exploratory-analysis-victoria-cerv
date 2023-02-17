@@ -66,7 +66,7 @@ The summary information R script contains valuable information about the content
 
 Include a table of aggregate information
 
-Describe why you included the table and what information it reveals
+We included a total of 5 columns within our aggregate information table. Together, this data will help us explore how health healthcare spending relates to health care worker populations within a broad variety of countries. The first column looks at the levels of current health expenditure expressed as a percentage of GDP, which includes healthcare related goods and services, but not buildings, machinery, or vaccine stockpiles. The second column looks at the share of current health expenditures funded from domestic public sources for health. This includes domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, but does not include external resources spent by the government on health. The third column is similar to the first column, except that instead of including the values as percentages, column three displays it in US dollars. This metric will allow us to easily compare countries in a way that is understandable to us. The fourth and fifth columns look at the number of physicians per 1,000 people and nurses/midwives per 1,000 people respectively. These metrics will allow us to learn more about how healthcare spending relates to the number of healthcare workers, and see if increased spending correlates with an increase in healthcare workers. 
 
 ### Chart 1
 
