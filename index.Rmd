@@ -25,39 +25,48 @@ Healthcare / World Bank / Population Health / Healthcare Spending
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+Broadly, we want to understand the trends in healthcare spending globally. We strive to answer the question of whether there is a relationship between the number of healthcare personnel and money spent on healthcare. Some questions to guide our research include:  
+
+* Does the amount of health expenditure affect the amount of health workers and their overall effectiveness?
+* Is the amount of healthcare spending correlated with the number of available physicians and nurses?
+* Is the percentage of GDP attributable to healthcare associated with an increase or decrease in available healthcare workers?
+
+The dataset that we have agreed to use for this project is an assimilation of *World Development Indicators: Health Systems* (2.12) created by the World Bank. One limitation of our dataset is that the data from each column is collected from a different time frame. To mitigate this, we were planning on analyzing data from one year that is included in each timeframe (EX: 2018).  An additional limitation is that we felt that COVID-19 was a large contributor to modern trends in healthcare systems. This dataset cannot accurately describe the current state of healthcare, but we believe that we can get an accurate enough picture of the situation to answer our proposed research questions. Interpreting this data set can provide us with insights as to whether higher healthcare expenditure truly does mean access to higher quality healthcare. 
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+Related works have focused on analyzing how healthcare spending affects the overall health of a population. This work is important to do as it can be used to create new health policies that can be used to help lower income countries build better healthcare systems. In addition, understanding the number of [healthcare workers per capita](https://www.bmj.com/content/357/bmj.j2940) can be influential in analyzing the quality of healthcare within different countries. The quality of healthcare should be maintained at a high level even in countries with a lower level of healthcare spending, and understanding how some countries are able to keep this balance is important. 
+The [World Bank](https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS) is an important factor in trying to create a world that is free of poverty by analyzing the ways in which countries are able to keep healthcare spending at a reasonable level while also maintaining the health of their country. [Various analyses](https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries-2/) looking at the countries that spend the most vs. the least amount of money on healthcare, number of doctors per capita, and percentage of GDP spent on healthcare, we are able to learn how global healthcare can be improved to decrease poverty levels across the world. These methods help create a more equitable world. 
+
+**References**  
+Current health expenditure (% of GDP). Data. (n.d.). Retrieved February 3, 2023, from https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS   
+Moberly, T. (2017, June 20). UK has fewer doctors per person than most other OECD countries. The BMJ. Retrieved February 3, 2023, from https://www.bmj.com/content/357/bmj.j2940   
+Twitter, E. W., Twitter, E. W., Ortaliza, J., &amp; Twitter, C. C. (2022, February 14). How does health spending in the U.S. compare to other countries? Peterson-KFF Health System Tracker. Retrieved February 3, 2023, from https://www.healthsystemtracker.org/chart-collection/health-spending-u-s-compare-countries-2/   
+World development indicators: The World Bank. World Development Indicators | The World Bank. (n.d.). Retrieved February 3, 2023, from http://wdi.worldbank.org/table/2.12# 
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+The World Bank as part of the World Development Indicators for 2016 database collected the data. This [data](https://www.kaggle.com/datasets/danevans/world-bank-wdi-212-health-systems) was collected by the World Bank who gathered data “by the Bank’s country management units and data obtained from official sources.” The World Bank collects data with the goal of achieving a world without poverty while trying to improve the quality and quantity of data. There are 211 observations in the data across 14 features. The data that we are utilizing comes from the World Bank, an international financial institution, so we need to be careful with bias in the dataset. The data might not be representative of a population as a whole. An institution that collects data like this cannot be 100% accurate so we have to look at the data with a sharp view. Some countries might have more access to healthcare workers but less money, and vice versa. We have to examine our bias when conducting our own analysis on the data. We have to make sure that when we present our data we are doing it in the least biased and most fair way possible.
+Some possible limitations of this data are the lack of data about COVID-19 health expenditures. It’s not as modern as we would like the data to be.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+The possible implications of this analysis are to understand healthcare spending as it differs from one country to another. This information can be important as it can show how healthcare spending affects the overall health of a population. In addition, we gain insight into how the number of doctors per capita affects healthcare spending, and whether higher or lower spending relates to better or worse health for the overall population of that country. In addition, relating healthcare spending to healthcare efficacy, we are able to learn detailed information about if spending truly impacts how effective healthcare really is. 
+Overall, the ideas that we learn from these analyses can be influential for public health policy implementation. Learning about the effects of healthcare spending and healthcare workers per capita can be helpful in lower income countries, where there may be a lower amount of spending on healthcare, but still have a need for high quality healthcare. 
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+One of the main challenges that we noticed within this dataset was that some of the data was collected within different years, so it may be difficult to compare data that was collected at different time points. One of the solutions we have for this is to create different graphs that look at different time periods, for example only comparing data from columns that were collected within the same year. In addition, our dataset only contains data collected up to 2016. We have no information about how the Covid - 19 pandemic has affected healthcare spending and healthcare workers, and we believe that this pandemic would have a massive impact on healthcare spending and overall GDP. Another aspect of this dataset that could be a challenge is the quality of the dataset, and how not having all the information and data for every country could lead to bias. We aim to prevent this by carefully thinking about how the analyses we run can impact the outputs and providing a disclaimer within our visualizations. 
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+The summary information R script contains valuable information about the contents of our data. Overall, there are 210 rows in our data set, indicating the 210 countries that are included as part of this World Bank data. In addition, the highest and lowest levels of current health expenditure expressed as a percentage of GDP is 23.3% as the maximum and 1.7% at a minimum in Monaco. In addition, another aspect of this data that we want to explore is the populations of healthcare workers in respect to the overall country population. We found that the maximum number of doctors per 1,000 people is 8.2, while the minimum is 0 physicians per 1,000 people, which we interpret to mean that this ratio is so small that there is only 1 doctor for a larger section of the population. 
 
 ### Table
 
 Include a table of aggregate information
 
-Describe why you included the table and what information it reveals
+We included a total of 5 columns within our aggregate information table. Together, this data will help us explore how health healthcare spending relates to health care worker populations within a broad variety of countries. The first column looks at the levels of current health expenditure expressed as a percentage of GDP, which includes healthcare related goods and services, but not buildings, machinery, or vaccine stockpiles. The second column looks at the share of current health expenditures funded from domestic public sources for health. This includes domestic revenue as internal transfers and grants, transfers, subsidies to voluntary health insurance beneficiaries, but does not include external resources spent by the government on health. The third column is similar to the first column, except that instead of including the values as percentages, column three displays it in US dollars. This metric will allow us to easily compare countries in a way that is understandable to us. The fourth and fifth columns look at the number of physicians per 1,000 people and nurses/midwives per 1,000 people respectively. These metrics will allow us to learn more about how healthcare spending relates to the number of healthcare workers, and see if increased spending correlates with an increase in healthcare workers. 
 
 ### Chart 1
 
