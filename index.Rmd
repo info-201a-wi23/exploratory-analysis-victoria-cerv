@@ -85,7 +85,4 @@ Scatter plot: for the relationship between healthcare spending and the number of
 Describe why you chose this chart and what information it reveals
 
 ### Chart 3
-
-Barplot: health care expenditure based on top 10 countries that spend the highest
-
-Describe why you chose this chart and what information it reveals
+We included a Barplot that revealed the top 10 countries with the highest health expenditure per capita to support our abstract. We wanted to use this graph to figure out the claim of if expenditure equates with overall effectiveness which we can see in the death numbers as well as how many health care workers they are. This graph gives us the information and will support whatever conclusion comes out of it.  
