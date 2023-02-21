@@ -26,3 +26,4 @@ summary_info$Physicians_per_1000_2009.18_max <- health %>%
 summary_info$Physicians_per_1000_2009.18_min <- health %>%
   filter(Physicians_per_1000_2009.18 == min(Physicians_per_1000_2009.18, na.rm = TRUE)) %>%
   pull(Physicians_per_1000_2009.18)
+
