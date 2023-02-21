@@ -70,11 +70,16 @@ We included a total of 5 columns within our aggregate information table. Togethe
 
 ### Chart 1
 
-Histogram: physicians per capita 
+Question: Does the amount of health expenditure affect the amount of health workers and their overall effectiveness?
 
-Describe why you chose this chart and what information it reveals
+This bubble plot chart shows the relationship between health expenditure per capita, nurse/midwife density, completeness of birth registration, and completeness of death registration. We can make some observations according to this data:
+-Countries with higher health expenditure per capita generally have higher nurse/midwife density.
+-It does not appear that there is a clear relationship between health expenditure per capita and completeness of birth registration.
+-There is a slight positive relationship between health expenditure per capita and completeness of death registration, with countries with higher health expenditure having higher completeness of death registration.
+Overall, the plot is clear that health expenditure per capita is associated with higher nurse/midwife density, but for completeness of birth and death registration, it is less clear.
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+
+``````{r, echo = FALSE, code = readLines("Chart 1.R")}
 
 ```
 
