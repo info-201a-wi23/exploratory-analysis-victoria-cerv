@@ -7,8 +7,11 @@ output: html_document
 
 ### Authors
 Megana Shivakumar
+
 Jorey Papritz
+
 Victoria Cervantes
+
 Sabriyah Morshed
 
 ### Date
@@ -92,6 +95,14 @@ Describe why you chose this chart and what information it reveals:
 I decided to use this chart to see the correlation between healthcare spending and physician availability. It might seem obvious that a higher number of physicians would be associated with increased healthcare spending, but there is more to this visualization than just that. We can explore some deeper questions such as:
   1. Where exactly is the money being spent on healthcare going?
   2. Does more spending always mean more physicians and nurses?
+  
+``````{r, echo = FALSE, code = readLines("Chart 2.R")}
+
+```
 
 ### Chart 3
 We included a Barplot that revealed the top 10 countries with the highest health expenditure per capita to support our abstract. We wanted to use this graph to figure out the claim of if expenditure equates with overall effectiveness which we can see in the death numbers as well as how many health care workers they are. This graph gives us the information and will support whatever conclusion comes out of it.  
+
+``````{r, echo = FALSE, code = readLines("Chart 3.R")}
+
+```
