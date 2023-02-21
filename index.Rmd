@@ -82,7 +82,11 @@ Describe why you chose this chart and what information it reveals
 
 Scatter plot: for the relationship between healthcare spending and the number of available physicians and nurses
 
-Describe why you chose this chart and what information it reveals
+Describe why you chose this chart and what information it reveals:
+
+I decided to use this chart to see the correlation between healthcare spending and physician availability. It might seem obvious that a higher number of physicians would be associated with increased healthcare spending, but there is more to this visualization than just that. We can explore some deeper questions such as:
+  1. Where exactly is the money being spent on healthcare going?
+  2. Does more spending always mean more physicians and nurses?
 
 ### Chart 3
 
