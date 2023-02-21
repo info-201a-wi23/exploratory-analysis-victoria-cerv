@@ -70,11 +70,16 @@ We included a total of 5 columns within our aggregate information table. Togethe
 
 ### Chart 1
 
-Histogram: physicians per capita 
+Question: Does the amount of health expenditure affect the amount of health workers and their overall effectiveness?
 
-Describe why you chose this chart and what information it reveals
+This bubble plot chart shows the relationship between health expenditure per capita, nurse/midwife density, completeness of birth registration, and completeness of death registration. We can make some observations according to this data:
+-Countries with higher health expenditure per capita generally have higher nurse/midwife density.
+-It does not appear that there is a clear relationship between health expenditure per capita and completeness of birth registration.
+-There is a slight positive relationship between health expenditure per capita and completeness of death registration, with countries with higher health expenditure having higher completeness of death registration.
+Overall, the plot is clear that health expenditure per capita is associated with higher nurse/midwife density, but for completeness of birth and death registration, it is less clear.
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+
+``````{r, echo = FALSE, code = readLines("Chart 1.R")}
 
 ```
 
@@ -89,7 +94,4 @@ I decided to use this chart to see the correlation between healthcare spending a
   2. Does more spending always mean more physicians and nurses?
 
 ### Chart 3
-
-Barplot: health care expenditure based on top 10 countries that spend the highest
-
-Describe why you chose this chart and what information it reveals
+We included a Barplot that revealed the top 10 countries with the highest health expenditure per capita to support our abstract. We wanted to use this graph to figure out the claim of if expenditure equates with overall effectiveness which we can see in the death numbers as well as how many health care workers they are. This graph gives us the information and will support whatever conclusion comes out of it.  
